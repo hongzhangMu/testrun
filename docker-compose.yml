@@ -1,0 +1,6 @@
+version: '3'
+services:
+  testtrail:
+    build: .
+    ports:
+      - 8341:8341
